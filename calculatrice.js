@@ -1,7 +1,7 @@
 let choix
 let nombreUn, nombreDeux
 let resultat
-let restart
+let restart = false
 
 function additionner(nombreA, nombreB) {
     return nombreA + nombreB
@@ -77,7 +77,7 @@ do {
 
     restart = confirm(`Effectuer une autre opération ?`)
 
-} while (restart === true);
+} while (restart);
 
 
 
